@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "get-col", :file "cljs/analyzer.clj", :type :fn, :src "(defn get-col [x env]\n  (or (-> x meta :column) (:column env)))", :column 1, :line 224, :arglists ([x env])}

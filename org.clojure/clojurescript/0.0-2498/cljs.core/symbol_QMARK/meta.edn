@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "symbol?", :file "cljs/core.clj", :type :macro, :src "(defmacro symbol? [x]\n  (bool-expr `(instance? Symbol ~x)))", :column 1, :line 333, :macro true, :arglists ([x])}

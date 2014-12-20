@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "identical?", :file "cljs/core.clj", :type :macro, :src "(defmacro identical? [a b]\n  (bool-expr (core/list 'js* \"(~{} === ~{})\" a b)))", :column 1, :line 318, :macro true, :arglists ([a b])}

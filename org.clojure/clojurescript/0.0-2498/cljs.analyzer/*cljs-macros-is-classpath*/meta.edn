@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "*cljs-macros-is-classpath*", :file "cljs/analyzer.clj", :type :var, :src "(def ^:dynamic *cljs-macros-is-classpath* true)", :column 1, :dynamic true, :line 31}

@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "with-warning-handlers", :file "cljs/analyzer.clj", :type :macro, :src "(defmacro with-warning-handlers [handlers & body]\n  `(binding [*cljs-warning-handlers* ~handlers]\n     ~@body))", :column 1, :line 172, :macro true, :arglists ([handlers & body])}

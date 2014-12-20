@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "divide", :file "cljs/core.clj", :type :macro, :src "(defmacro ^::ana/numeric divide\n  ([x] `(/ 1 ~x))\n  ([x y] (core/list 'js* \"(~{} / ~{})\" x y))\n  ([x y & more] `(/ (/ ~x ~y) ~@more)))", :column 1, :line 429, :macro true, :arglists ([x] [x y] [x y & more]), :cljs.analyzer/numeric true}

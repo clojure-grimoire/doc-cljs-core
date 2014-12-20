@@ -1,0 +1,1 @@
+{:ns "cljs.util", :name "compiled-by-version", :file "cljs/util.clj", :type :fn, :src "(defn compiled-by-version [^File f]\n  (with-open [reader (io/reader f)]\n    (let [match (->> reader line-seq first\n                     (re-matches #\".*ClojureScript (.*)$\"))]\n      (and match (second match)))))", :column 1, :line 33, :arglists ([f])}

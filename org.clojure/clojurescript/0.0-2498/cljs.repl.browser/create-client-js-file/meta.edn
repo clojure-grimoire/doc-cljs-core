@@ -1,0 +1,1 @@
+{:ns "cljs.repl.browser", :name "create-client-js-file", :file "cljs/repl/browser.clj", :type :fn, :src "(defn create-client-js-file [opts file-path]\n  (let [file (io/file file-path)]\n    (when (not (.exists file))\n      (spit file (compile-client-js opts)))\n    file))", :column 1, :line 206, :arglists ([opts file-path])}

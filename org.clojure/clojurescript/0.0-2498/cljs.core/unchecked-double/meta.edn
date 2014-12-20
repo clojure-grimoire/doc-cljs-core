@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "unchecked-double", :file "cljs/core.clj", :type :macro, :src "(defmacro unchecked-double [x] x)", :column 1, :line 369, :macro true, :arglists ([x])}

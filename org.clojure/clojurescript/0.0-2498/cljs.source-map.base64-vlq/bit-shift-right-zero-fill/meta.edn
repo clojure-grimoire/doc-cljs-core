@@ -1,0 +1,1 @@
+{:ns "cljs.source-map.base64-vlq", :name "bit-shift-right-zero-fill", :file "cljs/source_map/base64_vlq.clj", :type :fn, :src "(defn bit-shift-right-zero-fill [x n]\n  (bit-shift-right (bit-and 0xFFFFFFFF x) n))", :column 1, :line 10, :arglists ([x n])}

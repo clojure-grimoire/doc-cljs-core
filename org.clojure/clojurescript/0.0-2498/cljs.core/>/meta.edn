@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name ">", :file "cljs/core.clj", :type :macro, :src "(defmacro ^::ana/numeric >\n  ([x] true)\n  ([x y] (bool-expr (core/list 'js* \"(~{} > ~{})\" x y)))\n  ([x y & more] `(and (> ~x ~y) (> ~y ~@more))))", :column 1, :line 444, :macro true, :arglists ([x] [x y] [x y & more]), :cljs.analyzer/numeric true}

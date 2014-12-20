@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "*cljs-warning-handlers*", :file "cljs/analyzer.clj", :type :var, :src "(def ^:dynamic *cljs-warning-handlers*\n  [default-warning-handler])", :column 1, :dynamic true, :line 169}

@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "byte", :file "cljs/core.clj", :type :macro, :src "(defmacro byte [x] x)", :column 1, :line 360, :macro true, :arglists ([x])}

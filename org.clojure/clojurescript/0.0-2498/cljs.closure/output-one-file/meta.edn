@@ -1,0 +1,1 @@
+{:ns "cljs.closure", :name "output-one-file", :file "cljs/closure.clj", :type :fn, :src "(defn output-one-file [{:keys [output-to]} js]\n  (cond (nil? output-to) js\n        (string? output-to) (spit output-to js)\n        :else (println js)))", :column 1, :line 745, :arglists ([{:keys [output-to]} js])}

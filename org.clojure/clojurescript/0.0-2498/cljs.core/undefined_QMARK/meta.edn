@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "undefined?", :file "cljs/core.clj", :type :macro, :src "(defmacro undefined? [x]\n  (bool-expr (core/list 'js* \"(void 0 === ~{})\" x)))", :column 1, :line 315, :macro true, :arglists ([x])}

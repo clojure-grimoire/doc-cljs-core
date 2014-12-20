@@ -1,0 +1,1 @@
+{:ns "cljs.tagged-literals", :name "*cljs-data-readers*", :file "cljs/tagged_literals.clj", :type :var, :src "(def ^:dynamic *cljs-data-readers*\n  {'queue read-queue\n   'uuid  read-uuid\n   'inst  read-inst\n   'js    read-js})", :column 1, :dynamic true, :line 44}

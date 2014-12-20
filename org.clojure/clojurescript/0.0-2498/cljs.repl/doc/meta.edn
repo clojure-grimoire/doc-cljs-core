@@ -1,0 +1,1 @@
+{:ns "cljs.repl", :name "doc", :file "cljs/repl.clj", :type :macro, :src "(defmacro doc\n  \"Prints documentation for a var or special form given its name\"\n  [sym]\n  `(cljs.repl/print-doc (meta (var ~sym))))", :column 1, :line 233, :macro true, :arglists ([sym]), :doc "Prints documentation for a var or special form given its name"}

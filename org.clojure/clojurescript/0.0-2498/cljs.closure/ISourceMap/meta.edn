@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol ISourceMap\n  (-source-url [this] \"Return the CLJS source url\")\n  (-source-map [this] \"Return the CLJS compiler generated JS source mapping\"))", :doc nil, :ns "cljs.closure", :name "ISourceMap", :file "cljs/closure.clj", :column 1, :line 237}

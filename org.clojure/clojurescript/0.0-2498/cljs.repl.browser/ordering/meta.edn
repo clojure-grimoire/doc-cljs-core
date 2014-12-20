@@ -1,0 +1,1 @@
+{:ns "cljs.repl.browser", :name "ordering", :file "cljs/repl/browser.clj", :type :var, :src "(def ordering (agent {:expecting nil :fns {}}))", :column 1, :line 114}

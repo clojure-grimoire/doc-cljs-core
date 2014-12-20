@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "bit-flip", :file "cljs/core.clj", :type :macro, :src "(defmacro ^::ana/numeric bit-flip [x n]\n  (core/list 'js* \"(~{} ^ (1 << ~{}))\" x n))", :column 1, :line 519, :macro true, :arglists ([x n]), :cljs.analyzer/numeric true}

@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "wrapping-errors", :file "cljs/analyzer.clj", :type :macro, :src "(defmacro wrapping-errors [env & body]\n  `(try\n     ~@body\n     (catch Throwable err#\n       (if (analysis-error? err#)\n         (throw err#)\n         (throw (error ~env (.getMessage err#) err#))))))", :column 1, :line 295, :macro true, :arglists ([env & body])}

@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "nil?", :file "cljs/core.clj", :type :macro, :src "(defmacro nil? [x]\n  `(coercive-= ~x nil))", :column 1, :line 257, :macro true, :arglists ([x])}

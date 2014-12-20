@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "if-let", :file "cljs/core.clj", :type :macro, :src "(import-macros clojure.core\n [-> ->> .. assert comment cond\n  declare defn defn-\n  doto\n  extend-protocol fn for\n  if-let if-not letfn\n  memfn\n  when when-first when-let when-not while\n  cond-> cond->> as-> some-> some->>\n  if-some when-some])", :column 1, :line 58, :macro true}

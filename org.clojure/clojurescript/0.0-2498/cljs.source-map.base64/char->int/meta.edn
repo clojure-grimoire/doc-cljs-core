@@ -1,0 +1,1 @@
+{:ns "cljs.source-map.base64", :name "char->int", :file "cljs/source_map/base64.clj", :type :var, :src "(def char->int (zipmap chars64 (range 0 64)))", :column 1, :line 4}

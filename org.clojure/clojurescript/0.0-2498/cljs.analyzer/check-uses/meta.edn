@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "check-uses", :file "cljs/analyzer.clj", :type :fn, :src "(defn check-uses [uses env]\n  (doseq [[sym lib] uses]\n    (when (= (get-in @env/*compiler* [::namespaces lib :defs sym] ::not-found) ::not-found)\n      (warning :undeclared-ns-form env {:type \"var\" :lib lib :sym sym}))))", :column 1, :line 1040, :arglists ([uses env])}

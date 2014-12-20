@@ -1,0 +1,1 @@
+{:doc "A namespace that exists solely to provide a place for \"compiler\"\nstate that is accessed/maintained by many different components."}

@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "infer-type", :file "cljs/analyzer.clj", :type :fn, :src "(defn infer-type [env ast]\n  (if-let [tag (and (not (:tag ast))\n                    (infer-tag env ast))]\n    (assoc ast :tag tag)\n    ast))", :column 1, :line 1577, :arglists ([env ast])}

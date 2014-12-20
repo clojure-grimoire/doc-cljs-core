@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "adapt-obj-params", :file "cljs/core.clj", :type :fn, :src "(defn adapt-obj-params [type [[this & args :as sig] & body]]\n  (core/list (vec args)\n    (list* 'this-as (vary-meta this assoc :tag type) body)))", :column 1, :line 703, :arglists ([type [[this & args :as sig] & body]])}

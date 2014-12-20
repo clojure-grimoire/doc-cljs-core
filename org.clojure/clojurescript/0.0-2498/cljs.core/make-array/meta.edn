@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "make-array", :file "cljs/core.clj", :type :macro, :src "(defmacro make-array\n  [size]\n  (vary-meta\n    (if (core/number? size)\n      `(array ~@(take size (repeat nil)))\n      `(js/Array. ~size))\n    assoc :tag 'array))", :column 1, :line 1405, :macro true, :arglists ([size])}

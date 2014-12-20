@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "short", :file "cljs/core.clj", :type :macro, :src "(defmacro short [x] x)", :column 1, :line 361, :macro true, :arglists ([x])}

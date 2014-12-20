@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "collect-protocols", :file "cljs/core.clj", :type :fn, :src "(defn collect-protocols [impls env]\n  (->> impls\n      (filter core/symbol?)\n      (map #(:name (cljs.analyzer/resolve-var (dissoc env :locals) %)))\n      (into #{})))", :column 1, :line 873, :arglists ([impls env])}

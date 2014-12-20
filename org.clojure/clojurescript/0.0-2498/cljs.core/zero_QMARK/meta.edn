@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "zero?", :file "cljs/core.clj", :type :macro, :src "(defmacro ^::ana/numeric zero? [x]\n  `(== ~x 0))", :column 1, :line 465, :macro true, :arglists ([x]), :cljs.analyzer/numeric true}

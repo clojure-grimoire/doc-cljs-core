@@ -1,0 +1,1 @@
+{:ns "cljs.closure", :name "random-char", :file "cljs/closure.clj", :type :fn, :src "(defn random-char []\n  (nth name-chars (.nextInt (java.util.Random.) (count name-chars))))", :column 1, :line 72, :arglists ([])}

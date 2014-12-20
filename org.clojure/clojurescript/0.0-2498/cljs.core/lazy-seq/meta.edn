@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "lazy-seq", :file "cljs/core.clj", :type :macro, :src "(defmacro lazy-seq [& body]\n  `(new cljs.core/LazySeq nil (fn [] ~@body) nil nil))", :column 1, :line 1093, :macro true, :arglists ([& body])}

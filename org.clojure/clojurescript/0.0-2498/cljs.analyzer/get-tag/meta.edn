@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "get-tag", :file "cljs/analyzer.clj", :type :fn, :src "(defn get-tag [e]\n  (or (-> e :tag)\n      (-> e :info :tag)\n      (-> e :form meta :tag)))", :column 1, :line 430, :arglists ([e])}

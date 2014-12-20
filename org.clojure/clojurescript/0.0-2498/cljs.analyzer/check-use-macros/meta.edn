@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "check-use-macros", :file "cljs/analyzer.clj", :type :fn, :src "(defn check-use-macros [use-macros env]\n  (doseq [[sym lib] use-macros]\n    (when (nil? (.findInternedVar ^clojure.lang.Namespace (find-ns lib) sym))\n      (warning :undeclared-ns-form env {:type \"macro\" :lib lib :sym sym}))))", :column 1, :line 1045, :arglists ([use-macros env])}

@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "default-namespaces", :file "cljs/analyzer.clj", :type :var, :src "(def default-namespaces '{cljs.core {:name cljs.core}\n                          cljs.user {:name cljs.user}})", :column 1, :line 193}

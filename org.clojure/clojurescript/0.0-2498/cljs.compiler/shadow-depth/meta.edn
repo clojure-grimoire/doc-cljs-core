@@ -1,0 +1,1 @@
+{:ns "cljs.compiler", :name "shadow-depth", :file "cljs/compiler.clj", :type :fn, :src "(defn shadow-depth [s]\n  (let [{:keys [name info]} s]\n    (loop [d 0, {:keys [shadow]} info]\n      (cond\n       shadow (recur (inc d) shadow)\n       (some #{(str name)} (ns-first-segments)) (inc d)\n       :else d))))", :column 1, :line 53, :arglists ([s])}

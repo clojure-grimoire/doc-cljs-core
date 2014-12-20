@@ -1,0 +1,1 @@
+{:type :var, :src "(defmulti javascript-name class)", :ns "cljs.closure", :name "javascript-name", :file "cljs/closure.clj", :column 1, :line 573}

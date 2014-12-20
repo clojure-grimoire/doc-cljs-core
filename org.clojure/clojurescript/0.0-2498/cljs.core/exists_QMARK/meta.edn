@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "exists?", :file "cljs/core.clj", :type :macro, :src "(defmacro exists? [x]\n  (bool-expr\n    (core/list 'js* \"typeof ~{} !== 'undefined'\"\n      (vary-meta x assoc :cljs.analyzer/no-resolve true))))", :column 1, :line 310, :macro true, :arglists ([x])}

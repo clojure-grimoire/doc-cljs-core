@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "bit-or", :file "cljs/core.clj", :type :macro, :src "(defmacro ^::ana/numeric bit-or\n  ([x y] (core/list 'js* \"(~{} | ~{})\" x y))\n  ([x y & more] `(bit-or (bit-or ~x ~y) ~@more)))", :column 1, :line 501, :macro true, :arglists ([x y] [x y & more]), :cljs.analyzer/numeric true}

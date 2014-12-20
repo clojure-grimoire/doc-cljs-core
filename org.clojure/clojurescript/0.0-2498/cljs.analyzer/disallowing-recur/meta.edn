@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "disallowing-recur", :file "cljs/analyzer.clj", :type :macro, :src "(defmacro disallowing-recur [& body]\n  `(binding [*recur-frames* (cons nil *recur-frames*)] ~@body))", :column 1, :line 421, :macro true, :arglists ([& body])}

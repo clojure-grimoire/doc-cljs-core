@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "-cljs-macros-loaded", :file "cljs/analyzer.clj", :type :var, :src "(def -cljs-macros-loaded (atom false))", :column 1, :line 36}

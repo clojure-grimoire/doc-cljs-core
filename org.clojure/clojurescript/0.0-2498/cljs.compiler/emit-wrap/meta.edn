@@ -1,0 +1,1 @@
+{:ns "cljs.compiler", :name "emit-wrap", :file "cljs/compiler.clj", :type :macro, :src "(defmacro emit-wrap [env & body]\n  `(let [env# ~env]\n     (when (= :return (:context env#)) (emits \"return \"))\n     ~@body\n     (when-not (= :expr (:context env#)) (emitln \";\"))))", :column 1, :line 232, :macro true, :arglists ([env & body])}

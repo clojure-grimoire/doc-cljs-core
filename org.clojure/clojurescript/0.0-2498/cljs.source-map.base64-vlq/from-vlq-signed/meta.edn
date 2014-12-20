@@ -1,0 +1,1 @@
+{:ns "cljs.source-map.base64-vlq", :name "from-vlq-signed", :file "cljs/source_map/base64_vlq.clj", :type :fn, :src "(defn from-vlq-signed [v]\n  (let [neg? (= (bit-and v 1) 1)\n        shifted (bit-shift-right v 1)]\n    (if neg?\n      (- shifted)\n      shifted)))", :column 1, :line 18, :arglists ([v])}

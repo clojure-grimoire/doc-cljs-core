@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "truth_", :file "cljs/core.clj", :type :macro, :src "(defmacro truth_ [x]\n  (assert (clojure.core/symbol? x) \"x is substituted twice\")\n  (core/list 'js* \"(~{} != null && ~{} !== false)\" x x))", :column 1, :line 278, :macro true, :arglists ([x])}

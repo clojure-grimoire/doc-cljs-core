@@ -1,0 +1,1 @@
+{:ns "cljs.env", :name "default-compiler-env", :file "cljs/env.clj", :type :fn, :src "(defn default-compiler-env\n  ([] (default-compiler-env {}))\n  ([options]\n     (atom {:options options\n            :js-dependency-index (js-dependency-index options)})))", :column 1, :line 41, :arglists ([] [options])}

@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "coercive-=", :file "cljs/core.clj", :type :macro, :src "(defmacro coercive-= [x y]\n  (bool-expr (core/list 'js* \"(~{} == ~{})\" x y)))", :column 1, :line 269, :macro true, :arglists ([x y])}

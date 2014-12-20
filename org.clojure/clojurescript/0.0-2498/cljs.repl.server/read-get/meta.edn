@@ -1,0 +1,1 @@
+{:ns "cljs.repl.server", :name "read-get", :file "cljs/repl/server.clj", :type :fn, :src "(defn read-get [line rdr]\n  (let [[_ path _] (str/split line #\" \")\n        headers (parse-headers (read-headers rdr))]\n    {:method :get\n     :path path\n     :headers headers}))", :column 1, :line 88, :arglists ([line rdr])}

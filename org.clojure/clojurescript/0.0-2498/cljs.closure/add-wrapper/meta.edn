@@ -1,0 +1,1 @@
+{:ns "cljs.closure", :name "add-wrapper", :file "cljs/closure.clj", :type :fn, :src "(defn add-wrapper [{:keys [output-wrapper] :as opts} js]\n  (if output-wrapper\n   (str \";(function(){\\n\" js \"\\n})();\\n\")\n   js))", :column 1, :line 856, :arglists ([{:keys [output-wrapper], :as opts} js])}

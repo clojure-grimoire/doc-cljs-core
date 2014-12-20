@@ -1,0 +1,1 @@
+{:ns "cljs.closure", :name "output-deps-file", :file "cljs/closure.clj", :type :fn, :src "(defn output-deps-file [opts sources]\n  (output-one-file opts (deps-file opts sources)))", :column 1, :line 750, :arglists ([opts sources])}

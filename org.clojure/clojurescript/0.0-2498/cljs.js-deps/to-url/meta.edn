@@ -1,0 +1,1 @@
+{:type :var, :src "(defmulti to-url class)", :ns "cljs.js-deps", :name "to-url", :file "cljs/js_deps.clj", :column 1, :line 35}

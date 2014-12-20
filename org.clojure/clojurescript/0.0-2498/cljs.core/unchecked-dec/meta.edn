@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "unchecked-dec", :file "cljs/core.clj", :type :macro, :src "(defmacro ^::ana/numeric unchecked-dec\n  ([x] `(dec ~x)))", :column 1, :line 377, :macro true, :arglists ([x]), :cljs.analyzer/numeric true}

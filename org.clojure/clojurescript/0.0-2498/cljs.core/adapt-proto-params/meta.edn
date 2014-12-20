@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "adapt-proto-params", :file "cljs/core.clj", :type :fn, :src "(defn adapt-proto-params [type [[this & args :as sig] & body]]\n  `(~(vec (cons (vary-meta this assoc :tag type) args))\n     (this-as ~this\n       ~@body)))", :column 1, :line 720, :arglists ([type [[this & args :as sig] & body]])}

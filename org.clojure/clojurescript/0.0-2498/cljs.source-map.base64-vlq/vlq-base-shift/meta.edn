@@ -1,0 +1,1 @@
+{:ns "cljs.source-map.base64-vlq", :name "vlq-base-shift", :file "cljs/source_map/base64_vlq.clj", :type :var, :src "(def ^:const vlq-base-shift 5)", :column 1, :const true, :line 5}

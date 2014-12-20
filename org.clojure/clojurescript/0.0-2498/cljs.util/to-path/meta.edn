@@ -1,0 +1,1 @@
+{:ns "cljs.util", :name "to-path", :file "cljs/util.clj", :type :fn, :src "(defn to-path\n  ([parts]\n     (to-path parts File/separator))\n  ([parts sep]\n    (apply str (interpose sep parts))))", :column 1, :line 52, :arglists ([parts] [parts sep])}

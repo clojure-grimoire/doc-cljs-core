@@ -1,0 +1,1 @@
+{:ns "cljs.repl.rhino", :name "bootjs", :file "cljs/repl/rhino.clj", :type :var, :src "(def ^String bootjs (str \"goog.require = function(rule){\"\n                         \"Packages.clojure.lang.RT[\\\"var\\\"](\\\"cljs.repl.rhino\\\",\\\"goog-require\\\")\"\n                         \".invoke(___repl_env, rule);}\"))", :column 1, :line 21, :tag java.lang.String}

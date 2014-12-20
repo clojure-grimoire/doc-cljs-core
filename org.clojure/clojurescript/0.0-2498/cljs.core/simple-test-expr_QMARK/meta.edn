@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "simple-test-expr?", :file "cljs/core.clj", :type :fn, :src "(defn simple-test-expr? [env ast]\n  (core/and\n    (#{:var :invoke :constant :dot :js} (:op ast))\n    ('#{boolean seq} (cljs.analyzer/infer-tag env ast))))", :column 1, :line 216, :arglists ([env ast])}

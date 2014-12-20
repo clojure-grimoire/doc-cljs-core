@@ -1,0 +1,1 @@
+{:ns "cljs.util", :name "*clojurescript-version*", :file "cljs/util.clj", :type :var, :src "(def ^:dynamic *clojurescript-version* {:major 0, :minor 0, :qualifier 2498})", :column 1, :dynamic true, :line 15}

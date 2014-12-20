@@ -1,0 +1,1 @@
+{:ns "cljs.compiler", :name "distinct-keys?", :file "cljs/compiler.clj", :type :fn, :src "(defn distinct-keys? [keys]\n  (and (every? #(= (:op %) :constant) keys)\n       (= (count (into #{} keys)) (count keys))))", :column 1, :line 269, :arglists ([keys])}

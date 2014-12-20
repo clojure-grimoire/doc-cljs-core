@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "get-namespace", :file "cljs/analyzer.clj", :type :fn, :src "(defn get-namespace [key]\n  (get-in @env/*compiler* [::namespaces key]))", :column 1, :line 208, :arglists ([key])}

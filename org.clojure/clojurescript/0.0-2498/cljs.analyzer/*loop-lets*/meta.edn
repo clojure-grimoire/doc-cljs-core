@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "*loop-lets*", :file "cljs/analyzer.clj", :type :var, :src "(def ^:dynamic *loop-lets* ())", :column 1, :dynamic true, :line 419}

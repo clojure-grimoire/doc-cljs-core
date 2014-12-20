@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "cache-file", :file "cljs/analyzer.clj", :type :fn, :src "(defn cache-file [f output-dir]\n  (let [ns-info (parse-ns f)]\n    (io/file (util/to-target-file output-dir ns-info) \".cache.edn\")))", :column 1, :line 1697, :arglists ([f output-dir])}

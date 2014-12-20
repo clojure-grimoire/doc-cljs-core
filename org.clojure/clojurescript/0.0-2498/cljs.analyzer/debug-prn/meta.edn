@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "debug-prn", :file "cljs/analyzer.clj", :type :fn, :src "(defn debug-prn\n  [& args]\n  (.println System/err (apply str args)))", :column 1, :line 262, :arglists ([& args])}

@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "inc", :file "cljs/core.clj", :type :macro, :src "(defmacro ^::ana/numeric inc [x]\n  `(+ ~x 1))", :column 1, :line 462, :macro true, :arglists ([x]), :cljs.analyzer/numeric true}

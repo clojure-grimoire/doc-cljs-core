@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer.api", :name "resolve", :file "cljs/analyzer/api.clj", :type :fn, :src "(defn resolve [env sym]\n  (ana/resolve-var env sym))", :column 1, :line 14, :arglists ([env sym])}

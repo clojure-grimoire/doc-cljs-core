@@ -1,0 +1,1 @@
+{:type :fn, :src nil, :ns "cljs.js-deps", :doc "The JavaScript source string.", :arglists ([this]), :name "-source"}

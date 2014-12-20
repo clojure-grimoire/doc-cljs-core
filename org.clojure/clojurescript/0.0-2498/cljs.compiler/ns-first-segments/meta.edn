@@ -1,0 +1,1 @@
+{:ns "cljs.compiler", :name "ns-first-segments", :file "cljs/compiler.clj", :type :fn, :src "(defn ns-first-segments []\n  (letfn [(get-first-ns-segment [ns] (first (string/split (str ns) #\"\\.\")))]\n    (map get-first-ns-segment (keys (::ana/namespaces @env/*compiler*)))))", :column 1, :line 48, :arglists ([])}

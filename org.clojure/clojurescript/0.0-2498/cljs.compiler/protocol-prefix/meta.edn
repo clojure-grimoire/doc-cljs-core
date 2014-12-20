@@ -1,0 +1,1 @@
+{:ns "cljs.compiler", :name "protocol-prefix", :file "cljs/compiler.clj", :type :fn, :src "(defn protocol-prefix [psym]\n  (symbol (str (-> (str psym) (.replace \\. \\$) (.replace \\/ \\$)) \"$\")))", :column 1, :line 693, :arglists ([psym])}

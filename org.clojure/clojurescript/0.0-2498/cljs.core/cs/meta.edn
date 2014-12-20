@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "cs", :file "cljs/core.clj", :type :var, :src "(def cs (into [] (map (comp gensym core/str core/char) (range 97 118))))", :column 1, :line 1620}

@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "*cljs-file*", :file "cljs/analyzer.clj", :type :var, :src "(def ^:dynamic *cljs-file* nil)", :column 1, :dynamic true, :line 27}

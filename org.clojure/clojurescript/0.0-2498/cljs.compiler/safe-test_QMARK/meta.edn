@@ -1,0 +1,1 @@
+{:ns "cljs.compiler", :name "safe-test?", :file "cljs/compiler.clj", :type :fn, :src "(defn safe-test? [env e]\n  (let [tag (ana/infer-tag env e)]\n    (or (#{'boolean 'seq} tag) (truthy-constant? e))))", :column 1, :line 361, :arglists ([env e])}

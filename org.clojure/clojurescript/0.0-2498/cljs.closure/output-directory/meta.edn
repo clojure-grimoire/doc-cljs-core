@@ -1,0 +1,1 @@
+{:ns "cljs.closure", :name "output-directory", :file "cljs/closure.clj", :type :fn, :src "(defn output-directory [opts]\n  (or (:output-dir opts) \"out\"))", :column 1, :line 316, :arglists ([opts])}

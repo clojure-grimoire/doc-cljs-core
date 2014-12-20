@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "load-core", :file "cljs/analyzer.clj", :type :fn, :src "(defn load-core []\n  (when (not @-cljs-macros-loaded)\n    (reset! -cljs-macros-loaded true)\n    (if *cljs-macros-is-classpath*\n      (load *cljs-macros-path*)\n      (load-file *cljs-macros-path*))))", :column 1, :line 227, :arglists ([])}

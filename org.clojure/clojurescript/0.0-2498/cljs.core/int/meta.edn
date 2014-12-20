@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "int", :file "cljs/core.clj", :type :macro, :src "(defmacro ^::ana/numeric int [x]\n  `(bit-or ~x 0))", :column 1, :line 505, :macro true, :arglists ([x]), :cljs.analyzer/numeric true}

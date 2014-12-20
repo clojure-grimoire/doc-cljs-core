@@ -1,0 +1,1 @@
+{:type :var, :src "(defmulti assert-expr \n  (fn [menv msg form]\n    (cond\n      (nil? form) :always-fail\n      (seq? form) (first form)\n      :else :default)))", :ns "cljs.test", :name "assert-expr", :file "cljs/test.clj", :column 1, :line 64}

@@ -1,0 +1,1 @@
+{:type :fn, :src nil, :ns "cljs.js-deps", :doc "The URL where this JavaScript is located. Returns nil\n  when JavaScript exists in memory only.", :arglists ([this]), :name "-url"}

@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "coercive-boolean", :file "cljs/core.clj", :type :macro, :src "(defmacro coercive-boolean [x]\n  (with-meta (core/list 'js* \"~{}\" x)\n    {:tag 'boolean}))", :column 1, :line 273, :macro true, :arglists ([x])}

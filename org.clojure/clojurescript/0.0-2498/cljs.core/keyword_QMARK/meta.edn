@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "keyword?", :file "cljs/core.clj", :type :macro, :src "(defmacro keyword? [x]\n  (bool-expr `(instance? Keyword ~x)))", :column 1, :line 336, :macro true, :arglists ([x])}

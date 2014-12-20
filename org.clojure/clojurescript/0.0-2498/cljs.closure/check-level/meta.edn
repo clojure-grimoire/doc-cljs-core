@@ -1,0 +1,1 @@
+{:ns "cljs.closure", :name "check-level", :file "cljs/closure.clj", :type :var, :src "(def check-level\n  {:error CheckLevel/ERROR\n   :warning CheckLevel/WARNING\n   :off CheckLevel/OFF})", :column 1, :line 126}

@@ -1,0 +1,1 @@
+{:ns "cljs.util", :name "path-seq", :file "cljs/util.clj", :type :fn, :src "(defn path-seq\n  [file-str]\n  (->> File/separator\n       java.util.regex.Pattern/quote\n       re-pattern\n       (string/split file-str)))", :column 1, :line 45, :arglists ([file-str])}

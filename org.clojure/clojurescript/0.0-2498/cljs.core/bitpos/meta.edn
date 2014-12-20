@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "bitpos", :file "cljs/core.clj", :type :macro, :src "(defmacro bitpos [hash shift]\n  (core/list 'js* \"(1 << ~{})\" `(mask ~hash ~shift)))", :column 1, :line 545, :macro true, :arglists ([hash shift])}

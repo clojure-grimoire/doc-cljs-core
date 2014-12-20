@@ -1,0 +1,1 @@
+{:type :fn, :src nil, :ns "cljs.closure", :doc "Returns one or more IJavaScripts.", :arglists ([this opts]), :name "-compile"}

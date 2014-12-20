@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "str", :file "cljs/core.clj", :type :macro, :src "(defmacro str [& xs]\n  (let [strs (->> (repeat (count xs) \"cljs.core.str(~{})\")\n               (interpose \",\")\n               (apply core/str))]\n    (list* 'js* (core/str \"[\" strs \"].join('')\") xs)))", :column 1, :line 207, :macro true, :arglists ([& xs])}

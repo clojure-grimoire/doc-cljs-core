@@ -1,0 +1,1 @@
+{:type :fn, :src nil, :ns "cljs.js-deps", :doc "Whether the Javascript represents a foreign\n  library (a js file that not have any goog.provide statement", :arglists ([this]), :name "-foreign?"}

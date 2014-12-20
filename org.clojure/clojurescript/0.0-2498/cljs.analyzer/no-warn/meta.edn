@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "no-warn", :file "cljs/analyzer.clj", :type :macro, :src "(defmacro no-warn [& body]\n  (let [no-warnings (zipmap (keys *cljs-warnings*) (repeat false))]\n    `(binding [*cljs-warnings* ~no-warnings]\n       ~@body)))", :column 1, :line 211, :macro true, :arglists ([& body])}

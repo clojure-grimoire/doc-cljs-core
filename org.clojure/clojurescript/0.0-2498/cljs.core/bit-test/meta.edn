@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "bit-test", :file "cljs/core.clj", :type :macro, :src "(defmacro ^::ana/numeric bit-test [x n]\n  (core/list 'js* \"((~{} & (1 << ~{})) != 0)\" x n))", :column 1, :line 522, :macro true, :arglists ([x n]), :cljs.analyzer/numeric true}

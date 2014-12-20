@@ -1,0 +1,1 @@
+{:type :fn, :src "(deftype JSValue [val])", :ns "cljs.tagged-literals", :name "->JSValue", :file "cljs/tagged_literals.clj", :column 1, :line 33, :arglists ([val]), :doc "Positional factory function for class cljs.tagged_literals.JSValue."}

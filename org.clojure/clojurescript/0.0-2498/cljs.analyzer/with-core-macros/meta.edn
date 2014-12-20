@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "with-core-macros", :file "cljs/analyzer.clj", :type :macro, :src "(defmacro with-core-macros\n  [path & body]\n  `(do\n     (when (not= *cljs-macros-path* ~path)\n       (reset! -cljs-macros-loaded false))\n     (binding [*cljs-macros-path* ~path]\n       ~@body)))", :column 1, :line 234, :macro true, :arglists ([path & body])}

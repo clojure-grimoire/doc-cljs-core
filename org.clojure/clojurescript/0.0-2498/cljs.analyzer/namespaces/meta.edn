@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "namespaces", :file "cljs/analyzer.clj", :type :var, :src "(def namespaces\n  (reify clojure.lang.IDeref\n    (deref [_]\n      (if-not (nil? env/*compiler*)\n        (::namespaces @env/*compiler*)\n        default-namespaces))))", :column 1, :line 201}

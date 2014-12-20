@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "js-mod", :file "cljs/core.clj", :type :macro, :src "(defmacro ^::ana/numeric js-mod [num div]\n  (core/list 'js* \"(~{} % ~{})\" num div))", :column 1, :line 486, :macro true, :arglists ([num div]), :cljs.analyzer/numeric true}

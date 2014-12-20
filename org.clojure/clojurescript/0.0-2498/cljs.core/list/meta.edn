@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "list", :file "cljs/core.clj", :type :macro, :src "(defmacro list\n  ([] '(.-EMPTY cljs.core/List))\n  ([x & xs]\n    `(-conj (list ~@xs) ~x)))", :column 1, :line 1413, :macro true, :arglists ([] [x & xs])}

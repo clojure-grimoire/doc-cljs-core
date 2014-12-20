@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "analyze-keyword", :file "cljs/analyzer.clj", :type :fn, :src "(defn analyze-keyword\n  [env sym]\n  (register-constant! sym)\n  {:op :constant :env env :form sym :tag 'cljs.core/Keyword})", :column 1, :line 425, :arglists ([env sym])}

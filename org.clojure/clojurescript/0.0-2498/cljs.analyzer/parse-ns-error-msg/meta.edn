@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "parse-ns-error-msg", :file "cljs/analyzer.clj", :type :fn, :src "(defn parse-ns-error-msg [spec msg]\n  (str msg \"; offending spec: \" (pr-str spec)))", :column 1, :line 1050, :arglists ([spec msg])}

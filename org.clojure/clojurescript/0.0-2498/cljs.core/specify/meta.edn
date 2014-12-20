@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "specify", :file "cljs/core.clj", :type :macro, :src "(defmacro specify [expr & impls]\n  `(cljs.core/specify! (cljs.core/clone ~expr)\n     ~@impls))", :column 1, :line 636, :macro true, :arglists ([expr & impls])}

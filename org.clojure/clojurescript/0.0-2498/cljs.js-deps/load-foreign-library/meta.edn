@@ -1,0 +1,1 @@
+{:ns "cljs.js-deps", :name "load-foreign-library", :file "cljs/js_deps.clj", :type :fn, :src "(def load-foreign-library (memoize load-foreign-library*))", :column 1, :line 181}

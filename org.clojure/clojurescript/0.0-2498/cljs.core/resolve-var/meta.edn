@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "resolve-var", :file "cljs/core.clj", :type :fn, :src "(defn resolve-var [env sym]\n  (let [ret (-> (dissoc env :locals)\n              (cljs.analyzer/resolve-var sym)\n              :name)]\n    (assert ret (core/str \"Can't resolve: \" sym))\n    ret))", :column 1, :line 670, :arglists ([env sym])}

@@ -1,0 +1,1 @@
+{:ns "cljs.compiler", :name "emit-constants-table", :file "cljs/compiler.clj", :type :fn, :src "(defn emit-constants-table [table]\n  (doseq [[keyword value] table]\n    (let [ns   (namespace keyword)\n          name (name keyword)]\n      (emits \"cljs.core.\" value \" = \")\n      (emits-keyword keyword)\n      (emits \";\\n\"))))", :column 1, :line 1012, :arglists ([table])}

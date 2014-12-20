@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol IEval\n  (-eval [this env filename line]))", :doc nil, :ns "cljs.repl.rhino", :name "IEval", :file "cljs/repl/rhino.clj", :column 1, :line 25}

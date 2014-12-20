@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "js-arguments", :file "cljs/core.clj", :type :macro, :src "(defmacro js-arguments []\n  (core/list 'js* \"arguments\"))", :column 1, :line 283, :macro true, :arglists ([])}

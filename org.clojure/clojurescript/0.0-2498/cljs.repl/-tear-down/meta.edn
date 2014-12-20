@@ -1,0 +1,1 @@
+{:type :fn, :src nil, :ns "cljs.repl", :doc "dispose of the environment", :arglists ([this]), :name "-tear-down"}

@@ -1,0 +1,1 @@
+{:ns "cljs.compiler", :name "emit-fn-params", :file "cljs/compiler.clj", :type :fn, :src "(defn emit-fn-params [params]\n  (doseq [param params]\n    (emit param)\n    ; Avoid extraneous comma (function greet(x, y, z,)\n    (when-not (= param (last params))\n      (emits \",\"))))", :column 1, :line 480, :arglists ([params])}

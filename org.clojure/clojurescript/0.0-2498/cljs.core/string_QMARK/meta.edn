@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "string?", :file "cljs/core.clj", :type :macro, :src "(defmacro string? [x]\n  (bool-expr (core/list 'js* \"typeof ~{} === 'string'\" x)))", :column 1, :line 306, :macro true, :arglists ([x])}

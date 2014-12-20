@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "bit-shift-right", :file "cljs/core.clj", :type :macro, :src "(defmacro ^::ana/numeric bit-shift-right [x n]\n  (core/list 'js* \"(~{} >> ~{})\" x n))", :column 1, :line 528, :macro true, :arglists ([x n]), :cljs.analyzer/numeric true}

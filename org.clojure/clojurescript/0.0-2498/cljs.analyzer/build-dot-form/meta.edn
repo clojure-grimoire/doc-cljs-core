@@ -1,0 +1,1 @@
+{:type :var, :src "(defmulti build-dot-form #(classify-dot-form %))", :ns "cljs.analyzer", :name "build-dot-form", :file "cljs/analyzer.clj", :column 1, :line 1282}

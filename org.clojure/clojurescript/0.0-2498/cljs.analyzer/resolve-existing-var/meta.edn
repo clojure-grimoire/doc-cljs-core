@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "resolve-existing-var", :file "cljs/analyzer.clj", :type :fn, :src "(defn resolve-existing-var [env sym]\n  (if-not (-> sym meta ::no-resolve)\n    (resolve-var env sym confirm-var-exists)\n    (resolve-var env sym)))", :column 1, :line 401, :arglists ([env sym])}

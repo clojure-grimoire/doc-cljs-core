@@ -1,0 +1,1 @@
+{:type :var, :src "(defmulti emit* :op)", :ns "cljs.compiler", :name "emit*", :file "cljs/compiler.clj", :column 1, :line 113}

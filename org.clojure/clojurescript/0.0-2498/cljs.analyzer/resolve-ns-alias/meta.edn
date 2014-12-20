@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "resolve-ns-alias", :file "cljs/analyzer.clj", :type :fn, :src "(defn resolve-ns-alias [env name]\n  (let [sym (symbol name)]\n    (get (:requires (:ns env)) sym sym)))", :column 1, :line 319, :arglists ([env name])}

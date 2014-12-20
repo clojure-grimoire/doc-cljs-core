@@ -1,0 +1,1 @@
+{:ns "cljs.util", :name "ns->relpath", :file "cljs/util.clj", :type :fn, :src "(defn ns->relpath [s]\n  (str (string/replace (munge-path s) \\. \\/) \".cljs\"))", :column 1, :line 42, :arglists ([s])}

@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "error", :file "cljs/analyzer.clj", :type :fn, :src "(defn error\n  ([env s] (error env s nil))\n  ([env s cause]\n   (ex-info (message env s)\n            (assoc (source-info env) :tag :cljs/analysis-error)\n            cause)))", :column 1, :line 285, :arglists ([env s] [env s cause])}

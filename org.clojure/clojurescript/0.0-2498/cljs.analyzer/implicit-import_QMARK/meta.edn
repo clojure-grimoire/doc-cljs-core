@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "implicit-import?", :file "cljs/analyzer.clj", :type :fn, :src "(defn implicit-import? [env prefix suffix]\n  (contains? '#{goog goog.object goog.string goog.array Math} prefix))", :column 1, :line 303, :arglists ([env prefix suffix])}

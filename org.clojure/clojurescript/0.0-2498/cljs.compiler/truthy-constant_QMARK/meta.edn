@@ -1,0 +1,1 @@
+{:ns "cljs.compiler", :name "truthy-constant?", :file "cljs/compiler.clj", :type :fn, :src "(defn truthy-constant? [{:keys [op form]}]\n  (and (= op :constant)\n       form\n       (not (or (and (string? form) (= form \"\"))\n                (and (number? form) (zero? form))))))", :column 1, :line 351, :arglists ([{:keys [op form]}])}

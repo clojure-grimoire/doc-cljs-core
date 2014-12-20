@@ -1,0 +1,1 @@
+{:type :var, :src "(defonce handlers (atom {}))", :ns "cljs.repl.server", :name "handlers", :file "cljs/repl/server.clj", :column 1, :line 44}

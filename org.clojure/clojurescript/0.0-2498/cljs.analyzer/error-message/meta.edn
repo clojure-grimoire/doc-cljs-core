@@ -1,0 +1,1 @@
+{:type :var, :src "(defmulti error-message (fn [warning-type & _] warning-type))", :ns "cljs.analyzer", :name "error-message", :file "cljs/analyzer.clj", :column 1, :line 64}

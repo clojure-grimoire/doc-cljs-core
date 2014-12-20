@@ -1,0 +1,1 @@
+{:ns "cljs.compiler", :name "falsey-constant?", :file "cljs/compiler.clj", :type :fn, :src "(defn falsey-constant? [{:keys [op form]}]\n  (and (= op :constant)\n       (or (false? form) (nil? form))))", :column 1, :line 357, :arglists ([{:keys [op form]}])}

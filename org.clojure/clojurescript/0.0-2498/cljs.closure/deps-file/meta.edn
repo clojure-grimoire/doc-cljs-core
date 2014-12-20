@@ -1,0 +1,1 @@
+{:ns "cljs.closure", :name "deps-file", :file "cljs/closure.clj", :type :fn, :src "(defn deps-file\n  \"Return a deps file string for a sequence of inputs.\"\n  [opts sources]\n  (apply str (interpose \"\\n\" (map #(add-dep-string opts %) sources))))", :column 1, :line 734, :arglists ([opts sources]), :doc "Return a deps file string for a sequence of inputs."}

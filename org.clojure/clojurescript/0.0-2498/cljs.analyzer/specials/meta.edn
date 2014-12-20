@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "specials", :file "cljs/analyzer.clj", :type :var, :src "(def specials '#{if def fn* do let* loop* letfn* throw try recur new set!\n                 ns deftype* defrecord* . js* & quote case* var})", :column 1, :line 415}

@@ -1,0 +1,1 @@
+{:type :fn, :src nil, :ns "cljs.closure", :doc "Return the CLJS source url", :arglists ([this]), :name "-source-url"}

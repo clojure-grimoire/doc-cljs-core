@@ -1,0 +1,1 @@
+{:ns "cljs.tagged-literals", :name "read-queue", :file "cljs/tagged_literals.clj", :type :fn, :src "(defn read-queue\n  [form]\n  (when-not (vector? form)\n    (throw (RuntimeException. \"Queue literal expects a vector for its elements.\")))\n  (list 'cljs.core/into 'cljs.core.PersistentQueue.EMPTY form))", :column 1, :line 4, :arglists ([form])}

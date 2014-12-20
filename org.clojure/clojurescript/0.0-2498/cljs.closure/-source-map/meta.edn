@@ -1,0 +1,1 @@
+{:type :fn, :src nil, :ns "cljs.closure", :doc "Return the CLJS compiler generated JS source mapping", :arglists ([this]), :name "-source-map"}

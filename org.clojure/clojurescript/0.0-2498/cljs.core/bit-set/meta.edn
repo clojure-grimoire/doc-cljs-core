@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "bit-set", :file "cljs/core.clj", :type :macro, :src "(defmacro ^::ana/numeric bit-set [x n]\n  (core/list 'js* \"(~{} | (1 << ~{}))\" x n))", :column 1, :line 537, :macro true, :arglists ([x n]), :cljs.analyzer/numeric true}

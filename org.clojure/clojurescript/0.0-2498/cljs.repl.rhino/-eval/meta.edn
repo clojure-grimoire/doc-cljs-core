@@ -1,0 +1,1 @@
+{:type :fn, :src nil, :ns "cljs.repl.rhino", :doc nil, :arglists ([this env filename line]), :name "-eval"}

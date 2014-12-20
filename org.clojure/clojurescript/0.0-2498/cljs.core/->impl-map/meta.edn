@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "->impl-map", :file "cljs/core.clj", :type :fn, :src "(defn ->impl-map [impls]\n  (loop [ret {} s impls]\n    (if (seq s)\n      (recur (assoc ret (first s) (take-while seq? (next s)))\n        (drop-while seq? (next s)))\n      ret)))", :column 1, :line 677, :arglists ([impls])}

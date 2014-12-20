@@ -1,0 +1,1 @@
+{:type :var, :src "(defonce browser-state (atom {:return-value-fn nil\n                              :client-js nil}))", :ns "cljs.repl.browser", :name "browser-state", :file "cljs/repl/browser.clj", :column 1, :line 21}

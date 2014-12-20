@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "array?", :file "cljs/core.clj", :type :macro, :src "(defmacro array? [x]\n  (if (= :nodejs (:target @env/*compiler*))\n    (bool-expr `(.isArray js/Array ~x))\n    (bool-expr (core/list 'js* \"~{} instanceof Array\" x))))", :column 1, :line 301, :macro true, :arglists ([x])}

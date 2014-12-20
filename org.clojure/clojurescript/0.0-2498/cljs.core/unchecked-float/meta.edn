@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "unchecked-float", :file "cljs/core.clj", :type :macro, :src "(defmacro unchecked-float [x] x)", :column 1, :line 368, :macro true, :arglists ([x])}

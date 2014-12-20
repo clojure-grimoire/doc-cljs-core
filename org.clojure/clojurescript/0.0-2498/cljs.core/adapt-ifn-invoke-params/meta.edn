@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "adapt-ifn-invoke-params", :file "cljs/core.clj", :type :fn, :src "(defn adapt-ifn-invoke-params [type [[this & args :as sig] & body]]\n  `(~(vec args)\n     (this-as ~(vary-meta this assoc :tag type)\n       ~@body)))", :column 1, :line 715, :arglists ([type [[this & args :as sig] & body]])}

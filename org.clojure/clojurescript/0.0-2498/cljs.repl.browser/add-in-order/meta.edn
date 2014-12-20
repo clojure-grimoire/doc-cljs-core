@@ -1,0 +1,1 @@
+{:ns "cljs.repl.browser", :name "add-in-order", :file "cljs/repl/browser.clj", :type :fn, :src "(defn add-in-order [{:keys [expecting fns]} order f]\n  {:expecting (or expecting order) :fns (assoc fns order f)})", :column 1, :line 125, :arglists ([{:keys [expecting fns]} order f])}

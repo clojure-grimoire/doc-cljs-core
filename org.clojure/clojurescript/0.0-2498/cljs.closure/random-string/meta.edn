@@ -1,0 +1,1 @@
+{:ns "cljs.closure", :name "random-string", :file "cljs/closure.clj", :type :fn, :src "(defn random-string [length]\n  (apply str (take length (repeatedly random-char))))", :column 1, :line 75, :arglists ([length])}

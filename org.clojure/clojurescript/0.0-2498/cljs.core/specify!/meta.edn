@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "specify!", :file "cljs/core.clj", :type :macro, :src "(defmacro specify! [expr & impls]\n  (let [x (with-meta (gensym \"x\") {:extend :instance})]\n    `(let [~x ~expr]\n       (extend-type ~x ~@impls)\n       ~x)))", :column 1, :line 630, :macro true, :arglists ([expr & impls])}

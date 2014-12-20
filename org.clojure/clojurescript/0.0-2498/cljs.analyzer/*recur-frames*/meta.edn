@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "*recur-frames*", :file "cljs/analyzer.clj", :type :var, :src "(def ^:dynamic *recur-frames* nil)", :column 1, :dynamic true, :line 418}

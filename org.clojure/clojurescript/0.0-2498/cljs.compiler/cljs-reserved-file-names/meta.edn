@@ -1,0 +1,1 @@
+{:ns "cljs.compiler", :name "cljs-reserved-file-names", :file "cljs/compiler.clj", :type :var, :src "(def cljs-reserved-file-names #{\"deps.cljs\"})", :column 1, :line 42}

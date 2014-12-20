@@ -1,0 +1,1 @@
+{:ns "cljs.test", :name "ns?", :file "cljs/test.clj", :type :fn, :src "(defn ns? [x]\n  (and (seq? x) (= (first x) 'quote)))", :column 1, :line 200, :arglists ([x])}

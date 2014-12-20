@@ -1,0 +1,1 @@
+{:ns "cljs.compiler", :name "*lexical-renames*", :file "cljs/compiler.clj", :type :var, :src "(def ^:dynamic *lexical-renames* {})", :column 1, :dynamic true, :line 40}

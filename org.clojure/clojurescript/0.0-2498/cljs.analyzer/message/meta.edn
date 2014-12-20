@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "message", :file "cljs/analyzer.clj", :type :fn, :src "(defn message [env s]\n  (str s (when (:line env)\n           (str \" at line \" (:line env) \" \" *cljs-file*))))", :column 1, :line 277, :arglists ([env s])}

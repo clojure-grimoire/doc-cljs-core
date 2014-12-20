@@ -1,0 +1,1 @@
+{:type :var, :src "(defmulti emit-constant class)", :ns "cljs.compiler", :name "emit-constant", :file "cljs/compiler.clj", :column 1, :line 165}

@@ -1,0 +1,1 @@
+{:ns "cljs.compiler", :name "emitln", :file "cljs/compiler.clj", :type :fn, :src "(defn emitln [& xs]\n  (apply emits xs)\n  (println)\n  (when *source-map-data*\n    (swap! *source-map-data*\n      (fn [{:keys [gen-line] :as m}]\n        (assoc m\n          :gen-line (inc gen-line)\n          :gen-col 0))))\n  nil)", :column 1, :line 151, :arglists ([& xs])}

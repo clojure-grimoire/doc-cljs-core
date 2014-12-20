@@ -1,0 +1,1 @@
+{:ns "cljs.env", :name "*compiler*", :file "cljs/env.clj", :type :var, :src "(def ^:dynamic *compiler* nil)", :column 1, :dynamic true, :line 39}

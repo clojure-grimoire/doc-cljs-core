@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "*unchecked-if*", :file "cljs/analyzer.clj", :type :var, :src "(def ^:dynamic *unchecked-if* (atom false))", :column 1, :dynamic true, :line 28}

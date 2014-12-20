@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "es6-iterable", :file "cljs/core.clj", :type :macro, :src "(defmacro es6-iterable [ty]\n  `(aset (.-prototype ~ty) cljs.core/ITER_SYMBOL\n     (fn []\n       (this-as this#\n         (cljs.core/es6-iterator this#)))))", :column 1, :line 1669, :macro true, :arglists ([ty])}

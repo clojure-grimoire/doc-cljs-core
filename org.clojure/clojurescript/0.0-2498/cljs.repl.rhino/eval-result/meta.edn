@@ -1,0 +1,1 @@
+{:type :var, :src "(defmulti eval-result class)", :ns "cljs.repl.rhino", :name "eval-result", :file "cljs/repl/rhino.clj", :column 1, :line 47}

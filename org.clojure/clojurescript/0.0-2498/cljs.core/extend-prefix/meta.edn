@@ -1,0 +1,1 @@
+{:type :var, :src "(core/defmulti extend-prefix (fn [tsym sym] (-> tsym meta :extend)))", :ns "cljs.core", :name "extend-prefix", :file "cljs/core.clj", :column 1, :line 695}

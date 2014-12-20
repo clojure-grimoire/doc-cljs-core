@@ -1,0 +1,1 @@
+{:type :fn, :src nil, :ns "cljs.repl", :doc "load code at url into the environment", :arglists ([this ns url]), :name "-load"}

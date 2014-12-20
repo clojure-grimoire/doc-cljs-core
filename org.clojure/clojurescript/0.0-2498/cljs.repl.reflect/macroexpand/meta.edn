@@ -1,0 +1,1 @@
+{:ns "cljs.repl.reflect", :name "macroexpand", :file "cljs/repl/reflect.clj", :type :fn, :src "(defn macroexpand [form]\n  \"Fully expands a cljs macro form.\"\n  (let [mform (analyzer/macroexpand-1 {} form)]\n    (if (identical? form mform)\n      mform\n      (macroexpand mform))))", :column 1, :line 32, :arglists ([form])}

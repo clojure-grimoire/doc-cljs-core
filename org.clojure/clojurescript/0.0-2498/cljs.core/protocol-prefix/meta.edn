@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "protocol-prefix", :file "cljs/core.clj", :type :fn, :src "(defn protocol-prefix [psym]\n  (core/str (-> (core/str psym) (.replace \\. \\$) (.replace \\/ \\$)) \"$\"))", :column 1, :line 591, :arglists ([psym])}

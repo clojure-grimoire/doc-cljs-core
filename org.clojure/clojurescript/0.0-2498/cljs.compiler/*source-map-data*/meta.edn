@@ -1,0 +1,1 @@
+{:ns "cljs.compiler", :name "*source-map-data*", :file "cljs/compiler.clj", :type :var, :src "(def ^:dynamic *source-map-data* nil)", :column 1, :dynamic true, :line 39}

@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer.api", :name "all-ns", :file "cljs/analyzer/api.clj", :type :fn, :src "(defn all-ns []\n  (keys (get @env/*compiler* ::ana/namespaces)))", :column 1, :line 17, :arglists ([])}

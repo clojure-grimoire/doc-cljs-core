@@ -1,0 +1,1 @@
+{:type :var, :src "(defmulti js-source-file (fn [_ source] (class source)))", :ns "cljs.closure", :name "js-source-file", :file "cljs/closure.clj", :column 1, :line 81}

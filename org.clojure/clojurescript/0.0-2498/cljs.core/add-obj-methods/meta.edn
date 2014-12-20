@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "add-obj-methods", :file "cljs/core.clj", :type :fn, :src "(defn add-obj-methods [type type-sym sigs]\n  (map (fn [[f & meths :as form]]\n         `(set! ~(extend-prefix type-sym f)\n            ~(with-meta `(fn ~@(map #(adapt-obj-params type %) meths)) (meta form))))\n    sigs))", :column 1, :line 725, :arglists ([type type-sym sigs])}

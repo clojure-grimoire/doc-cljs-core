@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "alength", :file "cljs/core.clj", :type :macro, :src "(defmacro alength [a]\n  (vary-meta\n    (core/list 'js* \"~{}.length\" a)\n    assoc :tag 'number))", :column 1, :line 1490, :macro true, :arglists ([a])}

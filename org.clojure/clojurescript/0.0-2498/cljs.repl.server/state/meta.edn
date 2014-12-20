@@ -1,0 +1,1 @@
+{:type :var, :src "(defonce state (atom {:socket nil\n                      :connection nil\n                      :promised-conn nil}))", :ns "cljs.repl.server", :name "state", :file "cljs/repl/server.clj", :column 1, :line 16}

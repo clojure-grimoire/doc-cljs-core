@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "true?", :file "cljs/core.clj", :type :macro, :src "(defmacro true? [x]\n  (bool-expr (core/list 'js* \"~{} === true\" x)))", :column 1, :line 295, :macro true, :arglists ([x])}

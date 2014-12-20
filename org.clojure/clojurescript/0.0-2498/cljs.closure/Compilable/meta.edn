@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol Compilable\n  (-compile [this opts] \"Returns one or more IJavaScripts.\"))", :doc nil, :ns "cljs.closure", :name "Compilable", :file "cljs/closure.clj", :column 1, :line 303}

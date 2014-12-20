@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer.api", :name "ns-interns", :file "cljs/analyzer/api.clj", :type :fn, :src "(defn ns-interns [ns]\n  (get-in @env/*compiler* [::ana/namespaces ns :defs]))", :column 1, :line 23, :arglists ([ns])}

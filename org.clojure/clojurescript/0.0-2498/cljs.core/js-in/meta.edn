@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "js-in", :file "cljs/core.clj", :type :macro, :src "(defmacro js-in [key obj]\n  (core/list 'js* \"~{} in ~{}\" key obj))", :column 1, :line 289, :macro true, :arglists ([key obj])}

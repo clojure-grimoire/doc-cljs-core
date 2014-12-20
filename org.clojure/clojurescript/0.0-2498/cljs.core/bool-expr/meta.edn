@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "bool-expr", :file "cljs/core.clj", :type :fn, :src "(defn bool-expr [e]\n  (vary-meta e assoc :tag 'boolean))", :column 1, :line 213, :arglists ([e])}

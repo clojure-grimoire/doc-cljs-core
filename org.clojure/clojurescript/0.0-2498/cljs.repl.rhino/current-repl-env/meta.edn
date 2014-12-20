@@ -1,0 +1,1 @@
+{:ns "cljs.repl.rhino", :name "current-repl-env", :file "cljs/repl/rhino.clj", :type :var, :src "(def current-repl-env (atom nil))", :column 1, :line 18}

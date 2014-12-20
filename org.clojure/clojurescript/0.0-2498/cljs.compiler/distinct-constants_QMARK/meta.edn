@@ -1,0 +1,1 @@
+{:ns "cljs.compiler", :name "distinct-constants?", :file "cljs/compiler.clj", :type :fn, :src "(defn distinct-constants? [items]\n  (and (every? #(= (:op %) :constant) items)\n       (= (count (into #{} items)) (count items))))", :column 1, :line 315, :arglists ([items])}

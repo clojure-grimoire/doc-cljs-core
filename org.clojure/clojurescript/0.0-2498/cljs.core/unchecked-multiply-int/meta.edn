@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "unchecked-multiply-int", :file "cljs/core.clj", :type :macro, :src "(defmacro ^::ana/numeric unchecked-multiply-int\n  ([& xs] `(* ~@xs)))", :column 1, :line 395, :macro true, :arglists ([& xs]), :cljs.analyzer/numeric true}

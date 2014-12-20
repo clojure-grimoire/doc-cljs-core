@@ -1,0 +1,1 @@
+{:ns "cljs.closure", :name "in-same-dir?", :file "cljs/closure.clj", :type :fn, :src "(defn in-same-dir? [path-1 path-2]\n  \"Checks that path-1 and path-2 are siblings in the same logical directory.\"\n  (= (absolute-parent path-1)\n     (absolute-parent path-2)))", :column 1, :line 874, :arglists ([path-1 path-2])}

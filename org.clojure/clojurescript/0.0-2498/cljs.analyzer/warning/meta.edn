@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer", :name "warning", :file "cljs/analyzer.clj", :type :fn, :src "(defn warning [warning-type env extra]\n  (doseq [handler *cljs-warning-handlers*]\n    (handler warning-type env extra)))", :column 1, :line 281, :arglists ([warning-type env extra])}

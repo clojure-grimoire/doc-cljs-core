@@ -1,0 +1,1 @@
+{:type :var, :src "(defmulti parse (fn [op & rest] op))", :ns "cljs.analyzer", :name "parse", :file "cljs/analyzer.clj", :column 1, :line 503}

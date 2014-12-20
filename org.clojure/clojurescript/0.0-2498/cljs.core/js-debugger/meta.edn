@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "js-debugger", :file "cljs/core.clj", :type :macro, :src "(defmacro js-debugger []\n  (core/list 'js* \"debugger;\"))", :column 1, :line 292, :macro true, :arglists ([])}

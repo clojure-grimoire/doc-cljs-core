@@ -1,0 +1,1 @@
+{:ns "cljs.source-map.base64", :name "encode", :file "cljs/source_map/base64.clj", :type :fn, :src "(defn encode [n]\n  (let [e (find int->char n)]\n   (if e\n     (second e)\n     (throw (Error. (str \"Must be between 0 and 63: \" n))))))", :column 1, :line 7, :arglists ([n])}

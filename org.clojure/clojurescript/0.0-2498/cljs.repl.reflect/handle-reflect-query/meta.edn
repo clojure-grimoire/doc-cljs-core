@@ -1,0 +1,1 @@
+{:type :var, :src "(defmulti handle-reflect-query (fn [[param _] & _] param))", :ns "cljs.repl.reflect", :name "handle-reflect-query", :file "cljs/repl/reflect.clj", :column 1, :line 60}

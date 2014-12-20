@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "neg?", :file "cljs/core.clj", :type :macro, :src "(defmacro ^::ana/numeric neg? [x]\n  `(< ~x 0))", :column 1, :line 471, :macro true, :arglists ([x]), :cljs.analyzer/numeric true}

@@ -1,0 +1,1 @@
+{:ns "cljs.compiler", :name "emit-constants-table-to-file", :file "cljs/compiler.clj", :type :fn, :src "(defn emit-constants-table-to-file [table dest]\n  (with-open [out ^java.io.Writer (io/make-writer dest {})]\n    (binding [*out* out]\n      (emit-constants-table table))))", :column 1, :line 1020, :arglists ([table dest])}

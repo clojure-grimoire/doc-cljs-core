@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "unchecked-short", :file "cljs/core.clj", :type :macro, :src "(defmacro unchecked-short [x] x)", :column 1, :line 367, :macro true, :arglists ([x])}

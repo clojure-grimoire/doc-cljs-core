@@ -1,0 +1,1 @@
+{:ns "cljs.repl.browser", :name "preloaded-libs", :file "cljs/repl/browser.clj", :type :var, :src "(def preloaded-libs (atom #{}))", :column 1, :line 25}

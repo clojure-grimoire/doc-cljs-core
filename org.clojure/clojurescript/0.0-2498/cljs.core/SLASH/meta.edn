@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "/", :file "cljs/core.clj", :type :macro, :src "(defmacro ^::ana/numeric /\n  ([x] `(/ 1 ~x))\n  ([x y] (core/list 'js* \"(~{} / ~{})\" x y))\n  ([x y & more] `(/ (/ ~x ~y) ~@more)))", :column 1, :line 424, :macro true, :arglists ([x] [x y] [x y & more]), :cljs.analyzer/numeric true}

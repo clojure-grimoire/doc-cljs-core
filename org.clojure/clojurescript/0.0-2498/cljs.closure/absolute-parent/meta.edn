@@ -1,0 +1,1 @@
+{:ns "cljs.closure", :name "absolute-parent", :file "cljs/closure.clj", :type :fn, :src "(defn absolute-parent [path]\n  (.getParent (.getAbsoluteFile (io/file path))))", :column 1, :line 871, :arglists ([path])}

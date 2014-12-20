@@ -1,0 +1,1 @@
+{:ns "cljs.tagged-literals", :name "valid-js-literal-key?", :file "cljs/tagged_literals.clj", :type :fn, :src "(defn valid-js-literal-key? [k]\n  (or (string? k)\n      (and (keyword? k)\n           (nil? (namespace k)))))", :column 1, :line 28, :arglists ([k])}

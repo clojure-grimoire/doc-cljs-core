@@ -1,0 +1,1 @@
+{:type :fn, :src nil, :ns "cljs.repl", :doc "initialize the environment", :arglists ([this]), :name "-setup"}

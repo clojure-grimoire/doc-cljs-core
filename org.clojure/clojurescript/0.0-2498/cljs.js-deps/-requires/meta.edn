@@ -1,0 +1,1 @@
+{:type :fn, :src nil, :ns "cljs.js-deps", :doc "A list of namespaces that this JavaScript requires.", :arglists ([this]), :name "-requires"}

@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "unsafe-bit-and", :file "cljs/core.clj", :type :macro, :src "(defmacro ^::ana/numeric unsafe-bit-and\n  ([x y] (bool-expr (core/list 'js* \"(~{} & ~{})\" x y)))\n  ([x y & more] `(unsafe-bit-and (unsafe-bit-and ~x ~y) ~@more)))", :column 1, :line 497, :macro true, :arglists ([x y] [x y & more]), :cljs.analyzer/numeric true}

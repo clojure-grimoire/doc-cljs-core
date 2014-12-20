@@ -1,0 +1,1 @@
+{:ns "cljs.analyzer.api", :name "find-ns", :file "cljs/analyzer/api.clj", :type :fn, :src "(defn find-ns [sym]\n  (get-in @env/*compiler* [::ana/namespaces sym]))", :column 1, :line 20, :arglists ([sym])}

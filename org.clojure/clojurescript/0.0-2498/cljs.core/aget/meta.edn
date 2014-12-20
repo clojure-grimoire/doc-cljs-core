@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "aget", :file "cljs/core.clj", :type :macro, :src "(defmacro aget\n  ([a i]\n     (core/list 'js* \"(~{}[~{}])\" a i))\n  ([a i & idxs]\n     (let [astr (apply core/str (repeat (count idxs) \"[~{}]\"))]\n      `(~'js* ~(core/str \"(~{}[~{}]\" astr \")\") ~a ~i ~@idxs))))", :column 1, :line 339, :macro true, :arglists ([a i] [a i & idxs])}

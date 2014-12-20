@@ -1,0 +1,1 @@
+{:ns "cljs.core", :name "bit-xor", :file "cljs/core.clj", :type :macro, :src "(defmacro ^::ana/numeric bit-xor\n  ([x y] (core/list 'js* \"(~{} ^ ~{})\" x y))\n  ([x y & more] `(bit-xor (bit-xor ~x ~y) ~@more)))", :column 1, :line 508, :macro true, :arglists ([x y] [x y & more]), :cljs.analyzer/numeric true}

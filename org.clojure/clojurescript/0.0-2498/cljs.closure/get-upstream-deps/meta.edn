@@ -1,0 +1,1 @@
+{:ns "cljs.closure", :name "get-upstream-deps", :file "cljs/closure.clj", :type :fn, :src "(def get-upstream-deps (memoize get-upstream-deps*))", :column 1, :line 851}

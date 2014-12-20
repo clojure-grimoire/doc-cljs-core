@@ -1,0 +1,1 @@
+{:ns "cljs.closure", :name "add-header", :file "cljs/closure.clj", :type :fn, :src "(defn add-header [opts js]\n  (str (make-preamble opts) js))", :column 1, :line 853, :arglists ([opts js])}
